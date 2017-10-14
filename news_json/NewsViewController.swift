@@ -28,7 +28,6 @@ class NewsViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
         let article = articles[indexPath.row]
-        print(article.discription)
         cell?.textLabel?.text = article.title
         cell?.detailTextLabel?.text = article.publish
         

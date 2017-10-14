@@ -103,9 +103,8 @@
 		1100FF601F91DD0C00D7D4E4 /* news_json */ = {
 			isa = PBXGroup;
 			children = (
+				11B635A41F929FD0004ADA9A /* Modal */,
 				1100FF611F91DD0C00D7D4E4 /* AppDelegate.swift */,
-				11B635A01F925296004ADA9A /* DataManager.swift */,
-				11B635A21F925FDA004ADA9A /* Articles.swift */,
 				1100FF631F91DD0C00D7D4E4 /* ViewController.swift */,
 				1100FF8F1F91DD7B00D7D4E4 /* NewsViewController.swift */,
 				1100FF651F91DD0C00D7D4E4 /* Main.storyboard */,
@@ -132,6 +131,15 @@
 				1100FF831F91DD0D00D7D4E4 /* Info.plist */,
 			);
 			path = news_jsonUITests;
+			sourceTree = "<group>";
+		};
+		11B635A41F929FD0004ADA9A /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				11B635A01F925296004ADA9A /* DataManager.swift */,
+				11B635A21F925FDA004ADA9A /* Articles.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
